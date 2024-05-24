@@ -1,5 +1,5 @@
 
-# CoderDost MERN Stack E-commerce Project - Frontend Repository
+Mufa Perfumes Mearn E-SCommerce
 
 
 🔥 Features :

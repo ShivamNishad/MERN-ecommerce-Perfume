@@ -12,7 +12,7 @@ export function createUser(userData) {
 }
 
 export function loginUser(loginInfo) {
-  return new Promise(async (resolve, reject) => {
+   return new Promise(async (resolve, reject) => {
     try {
       const response = await fetch('http://localhost:3000/auth/login', {
         method: 'POST',
