@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* Top Sellers Heading */
+.top-sellers-heading {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #d1af60;
+}
+
+/* Product Slider */
+.product-slider {
+  padding: 20px;
+}
+
+.carousel-item-spacing {
+  padding: 30px 10px;
+  background-color: #001c25;
+}
+
+/* Product Card */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #001c25;
+  color: white;
+  margin: 20px;
+}
+
+/* Image Zoom Effect */
+.zoom-out {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-out:hover {
+  transform: scale(0.95);
+}
+
+/* Product Title */
+.product-title {
+  background-color: #001c25;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/* Product Prices */
+.original-price {
+  text-decoration: line-through;
+  color: grey;
+  margin-right: 10px;
+}
+
+.discounted-price {
+  color: red;
+  font-weight: bold;
+}
+
+.product-title,
+.product-price,
+.product-discount-price,
+.product-stock {
+  margin: 10px 0;
+}
+
+.product-discount-price {
+  text-decoration: line-through;
+  color: red;
+}
+
+/* Add to Cart Button */
+.add-to-cart-button {
+  background-color: #d1af60 !important;
+  color: #020101bb !important;
+}
+
+.add-to-cart-button:hover {
+  background-color: #e7a829 !important;
+  color: #020101bb !important;
+}
+
+/* Miscellaneous */
+.ship_img {
+  width: 25px;
+}

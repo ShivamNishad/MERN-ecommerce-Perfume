@@ -31,19 +31,9 @@ export default function NavBar() {
       {/* Top Bar */}
       <div className="bg-[#10272f] py-2 px-4 flex items-center justify-between">
         {/* Left Side */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 w-100">
           {/* Shipping Icon */}
-          <svg
-            className="h-6 w-6 text-white"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M12 19V5M5 12l7-7 7 7-7 7-7-7z" />
-          </svg>
+          <img src="shipping.png" alt="" srcset="" className="ship_img m-2"/>
           {/* Marquee Text */}
           <marquee className="text-white">Offer: 50% Discount on All Items!</marquee>
         </div>
@@ -83,7 +73,7 @@ export default function NavBar() {
           >
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
             <path d="M22 4L12 14.01l-3-3" />
-          </svg>
+          </svg> 
         </div>
       </div>
 
@@ -99,7 +89,7 @@ export default function NavBar() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-8 w-8"
-                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                        src="/mufa-logo.png"
                         alt="Your Company"
                       />
                     </div>
