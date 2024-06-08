@@ -19,7 +19,7 @@ const Collection = () => {
 
   return (
     <div className="collections-slide bg-[#001c25] text-white p-4">
-      <h2 className="collections-title text-center mb-4">COLLECTIONS Shivam</h2>
+      <h2 className="collections-title text-center mb-4">COLLECTIONS Shivam Nishad</h2>
       <div className="collections-container flex justify-between items-center">
         {collections.map((collection, index) => (
           <div key={index} className="collection-item text-center p-2">
