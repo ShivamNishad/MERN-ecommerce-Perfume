@@ -1,12 +1,12 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import RippleImage from '../../assets/images/Ripple.png';
-import MellowImage from '../../assets/images/mellow.png';
-import DazzleImage from '../../assets/images/Dazzle.png';
-import AllureImage from '../../assets/images/Allure.png';
-import AttarImage from '../../assets/images/attar.png';
-import SixthImage from '../../assets/images/Zephyr.png'; // Add your sixth product image
+import RippleImage from '../../assets/images/top8.webp';
+import MellowImage from '../../assets/images/top7.webp';
+import DazzleImage from '../../assets/images/top3.webp';
+import AllureImage from '../../assets/images/top4.webp';
+import AttarImage from '../../assets/images/top5.webp';
+import SixthImage from '../../assets/images/top6.webp'; // Add your sixth product image
 
 import AspectRatio from '@mui/joy/AspectRatio';
 import Button from '@mui/joy/Button';
@@ -83,10 +83,10 @@ const responsive = {
   },
 };
 
-const TopSeller = () => {
+const NewLunches = () => {
   return (
     <div className="product-slider bg-[#001c25]">
-      <h2 className="top-sellers-heading">TOP SELLERS</h2>
+      <h2 className="top-sellers-heading">NEW LAUNCHES</h2>
       <Carousel responsive={responsive} infinite autoPlay autoPlaySpeed={3000}>
         {products.map((product) => (
           <Card
@@ -148,4 +148,4 @@ const TopSeller = () => {
   );
 };
 
-export default TopSeller;
+export default NewLunches;

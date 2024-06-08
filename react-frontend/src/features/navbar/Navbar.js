@@ -1,6 +1,9 @@
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const user = {
   name: 'Tom Cook',
@@ -33,65 +36,42 @@ export default function NavBar() {
         {/* Left Side */}
         <div className="flex items-center space-x-4 w-100">
           {/* Shipping Icon */}
-          <img src="shipping.png" alt="" srcset="" className="ship_img m-2"/>
+          <img src="shipping.png" alt="" srcSet="" className="ship_img m-2" />
           {/* Marquee Text */}
           <marquee className="text-white">Offer: 50% Discount on All Items!</marquee>
         </div>
         {/* Right Side */}
         <div className="flex items-center space-x-4">
           {/* Social Media Icons */}
-          <svg
-            className="h-6 w-6 text-white"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M13 10V3L4 14h7v7l9-11h-7z" />
-          </svg>
-          <svg
-            className="h-6 w-6 text-white"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M3 17l6-6h4l-6 6 6 6H9l-6-6z" />
-          </svg>
-          <svg
-            className="h-6 w-6 text-white"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
-            <path d="M22 4L12 14.01l-3-3" />
-          </svg> 
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faInstagram} className="h-6 w-6 text-white" />
+          </a>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faTwitter} className="h-6 w-6 text-white" />
+          </a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faFacebook} className="h-6 w-6 text-white" />
+          </a>
         </div>
       </div>
 
       {/* Main header NavBar */}
-
+      
       <div className="min-h-full">
-        <Disclosure as="nav" className="bg-[#264b58]">
+        <Disclosure as="nav" className="bg-[#264b58] fixed-navbar">
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
-                      <img
-                        className="h-8 w-8"
-                        src="/mufa-logo.png"
-                        alt="Your Company"
-                      />
+                      <Link to="http://localhost:3001/">
+                        <img
+                          className="h-8 w-8"
+                          src="/mufa-logo.png"
+                          alt="Your Company"
+                        />
+                      </Link>
                     </div>
                     <div className="hidden md:block">
                       <div className="ml-10 flex items-baseline space-x-4">
@@ -114,13 +94,13 @@ export default function NavBar() {
                     </div>
                   </div>
                   <div className="hidden md:flex md:items-center md:ml-4">
-  {/* Search bar */}
-  <input
-    type="text"
-    placeholder="Search..."
-    className="px-3 py-1 text-sm text-gray-900 bg-[#264b58] rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
-  />
-</div>
+                    {/* Search bar */}
+                    <input
+                      type="text"
+                      placeholder="Search..."
+                      className="px-3 py-1 text-sm text-gray-900 bg-[#264b58] rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    />
+                  </div>
                   <div className="hidden md:block">
                     <div className="ml-4 flex items-center md:ml-6">
                       <button

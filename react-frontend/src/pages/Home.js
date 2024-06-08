@@ -7,20 +7,37 @@ import HeroSlide from "../features/slider/HeroSlide";
 import SecondRow from "../features/slider/SecondRow";
 import '../features/slider/Sliders.css';
 import TopSeller from "../features/slider/TopSeller";
-
-
+import FourSection from '../components/FourSection';
+import { Collections } from "@mui/icons-material";
+import Collection from '../components/Collection';
+import Categories from '../components/Categories';
+import FullImageSection from "../components/FullImageSection";
+import NewLunches from "../features/slider/NewLunches";
+import VideoSection from "../components/VideoSection";
+import Testimonials from "../components/Testimonials";
+import Blog from "../features/blog/Blog";
+import MufaFeature from "../components/MufaFeature";
 
 
 function Home() {
     return ( 
         <div>
             <NavBar>
-                <ProductList></ProductList>
+            <ProductList/>
             </NavBar>
             <HeroSlide/>
-            <SecondRow/>
+            <FullImageSection/>
             <TopSeller/>
-            <Footer></Footer>
+            <FourSection/>
+            <Categories/>
+            <Collection/>
+            <SecondRow/>
+            <NewLunches/>
+            <VideoSection/>
+            <Testimonials/>
+            <Blog/>
+            <MufaFeature/>
+            <Footer/>
         </div>
      );
 }

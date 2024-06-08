@@ -5,8 +5,6 @@ import Navbar from "../features/navbar/Navbar";
 import React from 'react';
 
 
-
-
 function AllProducts() {
     return ( 
         <div>
