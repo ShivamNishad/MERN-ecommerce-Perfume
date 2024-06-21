@@ -32,7 +32,7 @@ export default function NavBar() {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-[#10272f] py-2 px-4 flex items-center justify-between">
+      <div className="bg-[#10272f] py-0 px-4 flex items-center justify-between">
         {/* Left Side */}
         <div className="flex items-center space-x-4 w-100">
           {/* Shipping Icon */}
@@ -58,7 +58,7 @@ export default function NavBar() {
       {/* Main header NavBar */}
       
       <div className="min-h-full">
-        <Disclosure as="nav" className="bg-[#264b58] fixed-navbar">
+        <Disclosure as="nav" className="bg-[#264b58] fixed-navbar py-2.5">
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -67,8 +67,8 @@ export default function NavBar() {
                     <div className="flex-shrink-0">
                       <Link to="http://localhost:3001/">
                         <img
-                          className="h-8 w-8"
-                          src="/mufa-logo.png"
+                          className="h-20 w-16"
+                          src="/mufa-logo.png"  
                           alt="Your Company"
                         />
                       </Link>
@@ -219,11 +219,11 @@ export default function NavBar() {
           )}
         </Disclosure>
 
-        <header className="bg-white shadow">
+        {/* <header className="bg-white shadow">
           <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <h1 className="text-3xl font-bold tracking-tight text-gray-900">Dashboard</h1>
           </div>
-        </header>
+        </header> */}
         <main>
           <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">{/* Your content */}</div>
         </main>

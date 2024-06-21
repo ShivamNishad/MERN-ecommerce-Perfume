@@ -12,7 +12,7 @@ const testimonialsData = [
   {
     name: "Kathryn Murphy",
     title: "Founder ABC Studio",
-    text: "With Saturn the results are very satisfying. Wrapped with high quality and innovative design that makes a surge of visitors.",
+    text: "With Saturn the results are very satisfying. Wrapped with high quality and innovative design that makes a surge of visitors expectations.",
     image: "https://cdn.easyfrontend.com/pictures/testimonial/testimonial_square_1.jpeg",
   },
   {

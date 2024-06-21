@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-logo">
           <img src="mufa-logo.png" alt="Mufa Logo" />
-          <p>Block content. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+          <p>Block content. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
         </div>
         <div className="footer-links">
           <h3>Quick Links</h3>

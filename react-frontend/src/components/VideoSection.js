@@ -43,7 +43,7 @@ const VideoSection = () => {
   return (
     <div className="py-8 text-center bg-[#001c25]">
       <h2 style={{ fontFamily: 'Abril Fatface', fontSize: '3rem', fontWeight: 400, color: 'rgb(222, 194, 126)', textAlign: 'center', marginBottom: '1rem' }}>
-        MuFa FRAGRANCE x TRENDING
+        MUFA  FRAGRANCE x  TRENDING
       </h2>
       <div className="flex flex-wrap overflow-hidden">
         {videos.map((video, index) => (

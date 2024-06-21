@@ -2,7 +2,6 @@ import { Counter } from './features/counter/Counter';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home';
-// import SecondRow from './features/slider/SecondRow';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 
@@ -49,7 +48,7 @@ const router = createBrowserRouter([
     element: (
       // <Protected>
         <Home></Home>
-      // </Protected>
+      // </Protected> 
     ),
   },
   {
