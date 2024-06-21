@@ -3,7 +3,6 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import ProductCard from '../product/components/ProductCard';  // Correct import path
-import ProductDetails from '../product/components/ProductDetail';
 import RippleImage from '../../assets/images/Ripple.png';
 import MellowImage from '../../assets/images/mellow.png';
 import DazzleImage from '../../assets/images/Dazzle.png';

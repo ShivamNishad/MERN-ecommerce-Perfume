@@ -15,6 +15,7 @@ export default function ProductCard({ product }) {
   const navigate = useNavigate();
 
   const handleCardClick = () => {
+    navigate(`/product/${product.id}`);
   };
 
   return (
